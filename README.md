@@ -26,13 +26,14 @@ bool isValid = ParenthesesChecker.IsParenthesesBalanced("({[<>]})");
 
 ## 📦 Supported Brackets
 
-The library currently supports:
-Type	Example
-Parentheses	(a + b)
-Braces	{key: value}
-Square Brackets	[1, 2, 3]
-Angle Brackets	<div>
-Quotes (symmetric)	"text" (limited support)
+| Type               | Example                    |
+| ------------------ | -------------------------- |
+| Parentheses        | `(a + b)`                  |
+| Braces             | `{key: value}`             |
+| Square Brackets    | `[1, 2, 3]`                |
+| Angle Brackets     | `<div>`                    |
+| Quotes (symmetric) | `"text"` (limited support) |
+
 
 🧪 Running Tests
 
